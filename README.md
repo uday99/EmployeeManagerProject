@@ -104,7 +104,7 @@ project description:
 
       3) perform update,delete operations use--->http://127.0.0.1:8000/employee_opers/<pk>(idno)
 
-      4)mangaer logoout use-->
+      4)mangaer logoout use-->http://127.0.0.1:8000/manager-logout/
 
      
 
