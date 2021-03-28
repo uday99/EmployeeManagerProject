@@ -55,4 +55,63 @@ In your pycharm Terminal
     2) Compile the code using server ----python manage.py runserver 
 
 
+project description:
+====================
+  This is purely build using python and Django restFramework (DRF)
+
+ This is Manager employee project  where manager signIN using a url and creates a profile using url and manager login into using the 
+  credential username and password 
+ 
+
+  if the manager logged in successfully it show -->successfully logged in
+  els it gives a message as incorrect user name and password
+
+
+
+
+
+     urls:
+============
+  server takes you to browser to execute the projects use all the following urls for different operations
+
+  1)  MangerSignIN -use-->http://127.0.0.1:8000/manager-signIn/
+
+
+
+  2)  Manger login -use -->http://127.0.0.1:8000/manager_login/
+
+       if the manager logged in successfully it show -->successfully logged in
+  els it gives a message as incorrect user name and password
+
+  3) After manager login successfully a session is created for manager so that he can use to add employees
+     
+    if manager is not logged /session is not created su it doesnt allow anyone to perform operations on employee.
+   
+     if manager logged in successfully he can perform all below operations
+ 
+     
+     1>Create EMPloyee
+          To create employee--->http://127.0.0.1:8000/create_employee/
+
+
+
+
+     2>view all employees in sorted order using first and lastname--->http://127.0.0.1:8000/view_allemployees/
+
+
+
+
+
+      3) perform update,delete operations use--->http://127.0.0.1:8000/employee_opers/<pk>(idno)
+
+      4)mangaer logoout use-->
+
+     
+
+
+
+
+ 
+
+
      
